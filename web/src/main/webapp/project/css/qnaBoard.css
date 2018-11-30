@@ -1,0 +1,83 @@
+@charset "EUC-KR";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+a{
+	text-decoration: none;
+}
+.qnalogo{
+	width: 80%;
+	height: 150px;
+	margin-left: 10%;
+	margin-top: 50px;
+	background-color: #eaeaea;
+}
+.font-qna{
+	font-family: HY나무B;
+	font-weight: 600;
+	margin-left: 45.5%;	
+	text-align: center;
+}
+.qnainput{
+	margin-top: 30px;
+	margin-left: 10%;
+	width: 80%;
+	
+	height: 20px;
+}
+#board_category, #query{
+	height: 30px;
+}
+ .inputTypeText{
+ height: 25px;
+ width: 100%;
+ }
+.-btn{
+height: 30px;
+width:25%;
+background-color: white;	
+color: gray;
+}
+.qnawri{
+	width: 80%;
+	margin-left:10%;
+	height: 40px;
+	
+}
+.qnawri-btn{
+	width:7%;
+	height: 30px;
+	background-color: white;
+	color: gray;
+}
+.qnaboardlist-div{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 60px;
+}
+.qnaboardlist{
+	width: 100%;
+    border-top: 1px solid #444444;
+	 border-bottom: 1px solid #444444;
+    border-collapse: collapse;
+	
+}
+.qnaboardlist > td, .qnaboardlist >th{
+	border-top: 1px solid #444444;
+    padding: 10px;
+    height: 60px;
+	
+}
+.qna-fonttable{
+	font-family: HY나무B;
+	font-weight: 300; 
+}
+.qna-fonttable-list{
+	font-family: HY나무B;
+	font-weight: 200;
+}
+.paging{
+	margin-top: 100px;
+	align-items: center;
+	
+	}

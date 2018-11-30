@@ -1,0 +1,45 @@
+@charset "EUC-KR";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+a{
+	text-decoration: none;
+	
+}
+.container{
+	width: 80%;
+	
+	
+}
+.qnainfo-font{
+
+	font-family:  HY나무B;
+	float: right;
+	margin-left: 15px;
+	
+}
+.table-inner-font{
+	font-family:  HY나무B;
+	font-size: 13px;
+}
+.contentsWrap{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 50px;
+	align-content: center;
+}
+.qnainfobtn{
+	float: right;
+	height: 50px;
+	width:80%;
+	
+	margin-right: 20%;
+}
+.bbsList{
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 100px;
+	
+	 border: 1px solid #444444; 
+	
+}

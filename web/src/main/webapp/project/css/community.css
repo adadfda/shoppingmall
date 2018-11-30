@@ -1,0 +1,26 @@
+@CHARSET "EUC-KR";
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+div .community{
+	width: 80%;
+	height: 30px;
+	margin-left: 10%;
+	margin-top: 50px;
+}
+div .checklist{
+	width: 80%;
+	height: 20px;
+	margin-left: 10%;
+	
+}
+ .ch-community{
+	font-size: 12px;
+	    border-bottom: 1px solid transparent;
+	    display: black;
+	    margin-left: 37.5%;
+}  
+.th-community{
+	border-right: dotted 1px #999;    
+	
+}

@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+"http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="sist.com.bean.ProductBean">
+
+	<select id="adminSelect" parameterType="String" resultType="String">
+		SELECT PW FROM COMPANY WHERE ID =#{VALUE}
+	</select>
+	
+	<select id="customSelect" parameterType="String" resultType="String">
+	SELECT CPW FROM CUSTOMER WHERE CID=#{VALUE}
+	</select>
+	
+	<insert id="insertCart" parameterType="product">
+		INSERT INTO CART VALUES(cart_seq.nextval,#{productName},#{productOrigin},#{productPrice},#{productCategory},#{fileName},SYSDATE,#{id})
+	</insert>
+	
+	<select id="selectCart" resultType="product" parameterType="String">
+	SELECT *FROM CART WHERE ID = #{VALUE} order by no
+	</select>
+	<select id="allCart" resultType="product">
+	SELECT * FROM CART
+	</select>
+	
+	<delete id="deleteCart" parameterType="Integer">
+	DELETE FROM CART WHERE NO = #{no}
+	</delete>
+	<select id="modifyList" parameterType="Integer" resultType="product">
+	SELECT *FROM CART WHERE NO =#{VALUE}
+	</select>
+	
+	<update id="modifyCart" parameterType="product">
+		UPDATE CART SET PRODUCTNAME =#{productName},PRODUCTORIGIN =#{productOrigin},PRODUCTPRICE=#{productPrice},PRODUCTCATEGORY=#{productCategory}
+		<if test="fileName!=null">
+		,FILENAME=#{fileName}
+		</if>
+		,REGDATE=SYSDATE WHERE NO=#{no}
+	</update>
+	
+</mapper> 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,69 @@
+@import url(https://fonts.googleapis.com/css?family=Josefin+Slab);
+@import url(http://fonts.googleapis.com/earlyaccess/nanumgothic.css);
+
+*{
+	/* font-family: 'Nanum Gothic', sans-serif;	 */
+font-family: 'Josefin Slab', serif;
+}
+a{
+	text-decoration: none;
+}
+.headerTop{
+	height: 40px;
+	/* margin-bottom: 42px; */
+	border-bottom: dotted 1px #999;
+	font-size: 0;
+	
+}
+.headerTop .innerLeft {
+	width: 100%;
+	height: 100%;
+	margin-left: 2%;
+	 margin-right: 2%; 
+}
+.innerLeft .bookmark {
+	margin-top: 5px;
+	width: 10%;
+	float: left;
+} 
+.innerLeft .search .검색{
+	margin-top: 6px;
+	width: 15%;
+	float: left;
+	
+}
+.innerLeft .search .검색버튼{
+	width: 2%;
+	float: left;
+} 
+.innerLeft .innerRight {
+	width: 30%;
+	height: 50%;
+	float: right;
+	
+}
+.headerMiddle{
+	width: 100%;
+	height: 130px;
+	
+}
+.headerMiddle .mainlogo{
+	margin-top: 20px;
+ 	 margin-left: 39%;
+
+	
+}	
+.headerfooter{
+	width: 80%;
+	height: 35px;
+	margin-left:10%;
+	border-bottom: dotted 2px #999; 
+}
+.headerfooter .menubar{
+	font-weight:bold;
+	width: 100%;
+	height: 100%;
+	float: left;
+	font-size: 15px;
+}
+
